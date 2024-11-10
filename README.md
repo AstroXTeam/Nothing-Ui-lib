@@ -296,6 +296,18 @@ InfoSection:NewButton({
 })
 ```
 
+## Text Box
+```lua
+Section:NewTextbox({
+	Title = "Textbox",
+					Default = '',
+					FileType = "",
+					Callback = function(a)
+
+					end,
+				})
+```
+
 ### Key System
 
 ```lua
