@@ -1,4 +1,5 @@
 -- ICON: https://raw.githubusercontent.com/evoincorp/lucideblox/master/src/modules/util/icons.json -
+do  local ui =  game:GetService("CoreGui").RobloxGui.Modules.Profile:FindFirstChild("C4")  if ui then ui:Destroy() end end
 
 local Twen = game:GetService('TweenService');
 local Input = game:GetService('UserInputService');
@@ -3454,6 +3455,18 @@ function Library:Console()
 	return overview;
 end;
 
-print('[ OK ]: Fetch Nothing Library')
+print('
+╔═══╦═══╦════╦═══╦═══╗
+║╔═╗║╔═╗║╔╗╔╗║╔═╗║╔═╗║
+║║─║║╚══╬╝║║╚╣╚═╝║║─║║
+║╚═╝╠══╗║─║║─║╔╗╔╣║─║║
+║╔═╗║╚═╝║─║║─║║║╚╣╚═╝║
+╚╝─╚╩═══╝─╚╝─╚╝╚═╩═══╝
+╔═╗╔═╦════╦═══╦═══╦═╗╔═╗
+╚╗╚╝╔╣╔╗╔╗║╔══╣╔═╗║║╚╝║║
+─╚╗╔╝╚╝║║╚╣╚══╣║─║║╔╗╔╗║
+─╔╝╚╗──║║─║╔══╣╚═╝║║║║║║
+╔╝╔╗╚╗─║║─║╚══╣╔═╗║║║║║║
+╚═╝╚═╝─╚╝─╚═══╩╝─╚╩╝╚╝╚╝')
 
 return table.freeze(Library);
