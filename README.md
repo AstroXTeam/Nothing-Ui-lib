@@ -16,7 +16,7 @@ Windows = NothingLibrary.new({
             Logo = 'http://www.roblox.com/asset/?id=128284084359170',
             Size = UDim2.new(0.100000001, 445, 0.100000001, 315),
             IsRich = true,
-            RichText = '<font color="#FFFFFF"> Nothing </font><font color="#ff0000">Library</font><font, 
+            RichText = '<font color="#FFFFFF"> Nothing </font><font color="#ff0000">Library</font><font', 
             BlockFrameColor = Color3.fromRGB(255, 0, 0),
             BlockTransparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(0.98, 0.00), NumberSequenceKeypoint.new(1.00, 1.00)},
             BlockTransparency2 = 0.4,
