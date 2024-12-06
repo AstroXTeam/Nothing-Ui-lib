@@ -6,13 +6,25 @@
   
 ## Require Library
 ```lua
-local NothingLibrary = loadstring(game:HttpGetAsync('https://raw.githubusercontent.com/3345-c-a-t-s-u-s/NOTHING/main/source.lua'))();
-local Windows = NothingLibrary.new({
-	Title = "NOTHING",
-	Description = "Nothing UI Library",
-	Keybind = Enum.KeyCode.LeftControl,
-	Logo = 'http://www.roblox.com/asset/?id=18898582662'
-})
+SourceXS = game.HttpGet(game, 'https://raw.githubusercontent.com/AstroXTeam/UI-LIB/refs/heads/main/Not%20my%20lib');
+        NothingLibrary = loadstring(SourceXS)();
+
+Windows = NothingLibrary.new({
+            Title = " Nothing Library ",
+            Description = "By CaT Sus",
+            Keybind = Enum.KeyCode.T,
+            Logo = 'http://www.roblox.com/asset/?id=128284084359170',
+            Size = UDim2.new(0.100000001, 445, 0.100000001, 315),
+            IsRich = true,
+            RichText = '<font color="#FFFFFF"> Nothing </font><font color="#ff0000">Library</font><font, 
+            BlockFrameColor = Color3.fromRGB(255, 0, 0),
+            BlockTransparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(0.98, 0.00), NumberSequenceKeypoint.new(1.00, 1.00)},
+            BlockTransparency2 = 0.4,
+            WindowStroke = true
+        });
+
+
+
 ```
 ## Create Window
 ```lua
