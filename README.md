@@ -2,8 +2,7 @@
 - Smooth
 - Not lag
 - Open Source
-- [Icons](https://raw.githubusercontent.com/evoincorp/lucideblox/master/src/modules/util/icons.json)
-  
+
 ## Require Library
 ```lua
 SourceXS = game.HttpGet(game, 'https://raw.githubusercontent.com/AstroXTeam/UI-LIB/refs/heads/main/Not%20my%20lib');
